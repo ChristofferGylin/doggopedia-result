@@ -169,10 +169,12 @@ function nextDog() {
 
 async function updateFromJson() {
 
+    // Hämta JSON från fil med fetch 
     const response = await fetch('dogs.json');
+    // Konvertera JSON till ett objekt med metoden json()
     const data = await response.json();
     console.log(data);
-
+    // Kalla på funktionen updateDogInfo() med "hund-data" från JSON som argument
     updateDogInfo(data.dogArray[0]);
 
 

@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(72, 58, 41);
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: bisque;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: auto;
+}
+
+.larger-letter {
+    font-size: 7.5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+}
+
+.main-container {
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 20% auto 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog-container {
+    background-color: rgb(232, 199, 159);
+    height: 70%;
+    min-height: 600px;
+    min-width: 600px;
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 0.2rem solid rgb(137, 122, 103);
+    border-radius: 0.7rem;
+
+}
+
+#dogPic {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+.image-container {
+    height: 80%;
+    border-right: 0.2rem solid rgb(137, 122, 103);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    padding: 2rem;
+}
+
+.info-container {
+    align-self: center;
+    height: 80%;
+    padding: 2rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    overflow: auto;
+}
+
+#button {
+
+    background-color: rgb(236, 176, 103);
+    font-size: 2rem;
+    color: rgb(72, 58, 41);
+    border: 1px solid rgb(137, 122, 103);
+    padding: 2rem 6rem;
+    text-align: center;
+    border-radius: 2rem;
+    margin: 3rem auto;
+
+}
+
+#button:hover {
+    background-color: rgb(218, 173, 119);
+}

@@ -1,0 +1,46 @@
+{
+    "dogArray": [
+        {
+            "dogName": "Håkan",
+            "picSrc": "hakan.jpg",
+            "age": 12,
+            "color": "svart",
+            "interests": [
+                "Mat",
+                "Bollar",
+                "Godis",
+                "Sova",
+                "Mat"
+            ],
+            "isTired": true
+        },
+        {
+            "dogName": "Kira",
+            "picSrc": "kira.JPG",
+            "age": 10,
+            "color": "brun",
+            "interests": [
+                "Mat",
+                "Pinnar",
+                "Godis",
+                "Gosa",
+                "Mat"
+            ],
+            "isTired": false
+        },
+        {
+            "dogName": "Enzo",
+            "picSrc": "enzo.jpg",
+            "age": 4,
+            "color": "vit",
+            "interests": [
+                "Mat",
+                "Att gömma sig under soffan",
+                "Godis",
+                "Sova",
+                "Mat"
+            ],
+            "isTired": false
+        }
+    ]
+}
